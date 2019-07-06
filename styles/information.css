@@ -1,0 +1,129 @@
+.packingItem{
+    text-transform: capitalize;
+}
+#female, #male {
+    font-size: 1.3em;
+    flex-grow: 1;
+}
+#parkInformationContainer{
+    border: 5px solid white;
+    padding:5px;
+    z-index: 1;
+}
+#note{
+    border-radius:20px;
+    margin:5px 20px 20px 20px;
+}
+#btn-holder{
+    margin:auto;
+}
+
+.parkInfo span{
+    font-size: 1.2em;
+}
+.parkInfo div[data-subject]{
+    padding: 5px 10px;
+}
+.parkSwitch{
+    position: relative;
+    top: 0px;
+    background-color: #F2A844;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: .05%;
+    display: inline-block;
+    width: 17.5%;
+    border-radius: 10px;
+    border: 5px solid #F2A844;
+    padding: -3px;
+    z-index: 2;
+}
+.parkSwitch div{
+    width: 100%;
+    height: 100%;
+    border-width:.05%;
+    border: solid transparent;
+    border-radius: 1%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.parkSwitch div{ /* default */
+    background-color: rgba(255, 255, 225, .3);
+    border-color: #FFFFFF;
+}
+.parkSwitch:nth-child(1) div{ /* magic kingdom */
+    background-color: rgba(5, 147, 225, .2);
+    border-color: #0593E1;
+}
+.parkSwitch:nth-child(2) div{ /* epcot */
+    background-color: rgba(220, 8, 20, .2);
+    border-color: #DC0814;
+}
+.parkSwitch:nth-child(3) div{ /* animal kingdom */
+    background-color: rgba(140, 174, 61, .2);
+    border-color: #8CAE3D;
+}
+.parkSwitch:nth-child(4) div{ /* hollywood studios */
+    background-color: rgba(255, 255, 61, .2);
+    border-color: #FFFF3D;
+}
+.parkSwitch:nth-child(5) div{ /* blizzard beach */
+    background-color: rgba(93, 188, 210, .2);
+    border-color: #5DBCD2;
+}
+.parkSwitch:nth-child(6) div{ /* islands of adventure */
+    background-color: rgba(38, 38, 142, .2);
+    border-color: #26268e;
+    
+}
+.parkSwitch img{
+    width: 100%;
+}
+.parkInfo span{
+    text-transform:uppercase;
+    font-weight:900;
+}
+#parkInformationContainer h4{
+    font-size: 1.5em;
+}
+.panel{
+    border-radius: 35px;
+    margin:20px;
+}
+
+.packing-list .fa-times{
+    color: #FF0000;
+}
+#beforeRules, #afterRules {
+    border:transparent;
+}
+#beforeRules {
+    background-color:#C2761F;
+    color:white;
+    margin-left:10px;
+    margin-top:10px;
+}
+#afterRules {
+    margin-bottom:10px;
+    border:transparent;
+    margin-left:10px;
+    
+}
+#beforeRules:hover, #afterRules:hover{
+    background-color:#F6E3C8;
+}
+#rulesList {
+    list-style-type:none;
+}
+.bullet{
+    padding-top:-5px;
+    padding-right:5px;
+}
+.listItem {
+    margin-bottom:10px;
+}
+#rulesContent {
+    border-radius:10px;
+}

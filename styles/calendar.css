@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Da&display=swap');
+
+.event-container{
+    background-color:#63A2FF;
+    /*height:36.5em;*/
+}
+.background-header{
+    border: 4px solid #63A2FF;
+    border-bottom-width: 1px;
+    padding: 25px 0px;
+}
+.Full-Cal{
+    display: flex;
+    align-items: stretch;
+}
+.Calendar{
+    padding-bottom: 0px
+}
+.Sidebar{
+    /*height:36.5em;*/
+    background-color:#63A2FF
+}
+
+#eventDayName{
+    color:white;
+    text-align:center;
+    font-family:'Baloo Da', cursive;
+    font-size:5em;
+}
+#weekDay, #eventTime{
+    color:white;
+    text-align:center;
+    font-size:1.5em;
+}
+
+#cal-table .left{
+    border-left: 2px solid #306FCC !important;
+}
+#cal-table .col{
+    background-color: #63A2FF;
+    color: white;
+    border: transparent;
+    padding: 10px 0px !important;
+    text-align: center !important;
+    margin: 0px;
+    border-bottom: 2px solid #306FCC !important;
+}
+#table-body-container{
+    border: 3px solid #bfbfbf;
+    border-top-color: transparent;
+    overflow-x: hidden;
+}
+.Calrow{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.Full-Cal .col{
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    border: 2px solid transparent;
+    padding: 5px;
+    padding-bottom: 2.6rem !important;
+    text-align: right;
+    margin: 1px 2px;
+    font-weight: 400;
+}
+#table-body .col:hover{
+    cursor: pointer;
+    border-right: 2px solid #bfbfbf;
+    background-color: #f2f2f2;
+}
+
+.empty-day:hover{
+    cursor: default !important;
+    background-color: #fff !important;
+    border-color: transparent !important;
+}
+
+.blue{
+    background-color: #63A2FF !important;
+    color: white !important;
+    font-weight: bold !important;
+    border-right-color: #306FCC !important;
+}
+
+.empty-message{
+    opacity: .6 !important;
+}
+
+.eventCard{
+    background-color: #fff;
+    color: black;
+    padding: 12px 24px;
+    border-bottom: 1px solid #E5E5E5;
+    position: relative;
+    animation: slideInDown 0.5s;
+}
+.eventCard-header{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.eventCard:not(.empty-message) .eventCard-header{
+    padding-bottom: 10px;
+}
+.eventCard-description{
+    color: grey;
+    text-indent: 1em;
+}
+
+.eventCard-mark-wrapper{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 60px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 100%);
+}
+
+.eventCard-mark{
+    width: 8px;
+    height: 8px;
+    background-color: #b39ddb;
+    border-radius: 100px;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+}
+.day-mark{
+    color: #ffb3e6;
+    padding: 3px;
+    vertical-align: top;
+}
+.schedule{
+   padding:15px;
+}
+.timelinelist{
+   list-style:none;
+   animation: slideInDown 0.5s;
+   
+}
+.pill{
+   background-color:#53edeb;
+   color:black;
+   padding:5px;
+   border-radius:15px;
+   font-size:12px;
+}
+.panel {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+  transition: max-height .5s ease;
+  color:black;
+  background-color:transparent;
+}
+.scroll{
+  
+  height:250px;
+  overflow:auto;
+}
+
+.readmore{
+  background: linear-gradient(to bottom, rgba(100, 100, 100, 0) 0%, rgba(99, 164, 255, 0.8)  75%);
+  height: 40px;
+  margin-top: -60px;
+  position: relative;
+}
+.Click{
+   text-align:center;
+  
+}
+#slideArrow{
+   cursor:pointer;
+}
+
+
+@media (max-width: 992px) {  
+    .Full-Cal{
+        flex-direction : column;  
+    }  
+    .Sidebar{
+    
+        order : 2;   
+        height:35em;
+    }  
+    .Calendar{
+        order : 1;
+    }
+    .Sidebar, .Calendar{
+        padding: 0px;
+    }
+   
+    
+
+}
+.btn-blue{
+    background-color: #63A2FF;
+    color: white;
+}
+.btn-blue:hover{
+    background-color: #337ab7;
+    color: white;
+}

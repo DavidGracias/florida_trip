@@ -1,0 +1,196 @@
+.table .border-left{
+    border-left: 2px solid rgb(225, 225, 225);
+}
+.table .border-right{
+    border-right: 2px solid rgb(225, 225, 225);
+}
+.gender{
+    color: white;
+    border-radius: 14px;
+    border: 2px solid #FFFFFF;
+    padding: 2px 4px;
+    font-weight: 900;
+    white-space: nowrap;
+}
+.warning{
+    color: white;
+    border-radius: 14px;
+    border: 2px solid #FFFFFF;
+    padding: 2px 4px;
+    font-weight: 900;
+    white-space: nowrap;
+}
+#stats td div:hover {
+    background-color:white;
+}
+.gender.blue{
+    background-color: #9BD1F2;
+    border-color: #82B8D9;
+    color: #1C5273;
+}
+.warning.orange{
+    background-color: #FFAA46;
+    border-color: #FF8C0D;
+    color: #704C26;
+}
+.stickyrow{ overflow-y: auto;}
+
+.stickyrow th{
+    position:sticky;
+    top:0;
+}
+.gender.pink{
+    background-color: #FFD1D1;
+    border-color: #F8B8B8;
+    color: #925252;
+}
+.gender.red{
+    background-color: #F7B7B7;
+    border-color: #DE9E9E;
+    color: #783838;
+}
+
+.gender.yellow{
+    background-color: #FFEAA4;
+    border-color: #E6D18B;
+    color: #806B25;
+}
+
+.gender.green{
+    background-color: #8FEB8F;
+    border-color: #5CB85C;
+    color: #106C10;
+}
+table.nowrap th{
+    white-space: nowrap;
+}
+#students h4{
+    text-indent: .4em;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid white;
+}
+.table thead{
+    background-color: rgb(245, 245, 245);
+}
+.students-link{
+    display: block;
+    margin: auto;
+    width: auto;
+    text-align: center;
+    background-color: transparent;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+    padding: 10px 5px;
+    word-wrap:break-word;
+}
+.students-link a{
+    color: white;
+    padding: 0px 2px;
+    margin: 0px 3px;
+    font-size: .9em;
+}
+.students-link a:hover, .students-link a:active, .students-link a:visited{
+    color: white;
+    text-decoration: underline;
+}
+tr[data-target="#newUserModal"]:hover{
+    background-color: #00000077
+}
+#stuTable tbody tr:hover td, #stuTable tbody tr:hover th {
+    background-color: #FFFFFF33
+}
+#searchBar {
+    margin-bottom:-15px; /*erases .form-group styling*/
+}
+
+#filterStudentsDiv{
+    margin-top: -12.5px;
+}
+#filterStudentsDiv h4{
+    margin: 5px 0px -2.5px 0px;
+}
+
+#filterStudentsDiv .select, #filterStudentsDiv input::placeholder, #filterStudentsDiv .unselected{
+    color: #229fdd;
+    background-color: white;
+}
+#filterStudentsDiv .select:hover, #filterStudentsDiv .active input::placeholder, #filterStudentsDiv .select:hover input::placeholder{
+    color: white;
+    background-color: #229fddAA;
+}
+#filterStudentsDiv .select.active, #filterStudentsDiv .select:active, #filterStudentsDiv .selected{
+    color: white;
+    background-color: #229fdd;
+}
+#filterStudentsDiv .select,  #filterStudentsDiv .selected, #filterStudentsDiv .unselected{
+    border-radius: 0px;
+    padding: 5px 8px;
+    margin: 3px;
+    display: inline-block !important;
+    border: 1px solid #229fdd;
+    cursor: pointer;
+}
+#filterStudentsDiv .select input{
+    background-color: transparent;
+    border-radius: 0px;
+    padding: 0px 2px;
+    border: none;
+    outline: none;
+    cursor: text;
+}
+#filterStudentsDiv .select:active{
+    box-shadow: none;
+}
+#filterStudentsDiv .selected, #filterStudentsDiv .unselected{
+    cursor: default;
+    box-shadow: none;
+}
+
+
+.letterHeader{
+    overflow-x: scroll !important;
+}
+/*.table-students tr:nth-child(1) td{*/
+/*    border-top: 0px solid transparent !important;*/
+/*    width:30px;*/
+/*}*/
+/*.table-students td:nth-child(1), .table-students th:nth-child(1){*/
+/*    width:30px !important;*/
+/*}*/
+/*.table-students td:nth-child(2), .table-students th:nth-child(2){*/
+/*    width:30px !important;*/
+/*}*/
+/*.table-students td:nth-child(3), .table-students th:nth-child(3){*/
+/*    width:30px !important;*/
+/*}*/
+/*.table-students td:nth-child(4), .table-students th:nth-child(4){*/
+/*    width:30px !important;*/
+/*}*/
+/*.table-students td:nth-child(5), .table-students th:nth-child(5){*/
+/*    width:30px !important;*/
+/*}*/
+/*.table-students td:nth-child(6), .table-students th:nth-child(6){*/
+/*    width:30px !important;*/
+/*}*/
+/*.table-students td:nth-child(7), .table-students th:nth-child(7){*/
+/*    width:30px !important;*/
+/*}*/
+.bottomArrowContainer{
+    width: 19% !important;
+    display: block !important;
+    z-index: 1;
+    position: relative !important;
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 1px;
+    box-shadow: none;
+}
+.bottom .arrow, .bottom .arrow:after{
+    display: block;
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-top-width: 0;
+    border-bottom-color: white;
+}

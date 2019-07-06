@@ -1,0 +1,21 @@
+/* Medical Form Pill */
+#FAQImage{
+    padding:5px;
+    display: block;
+    margin: auto;
+    position:relative;
+    top:20;
+}
+.faq-questions:hover{
+    background-color: #fff8e6;
+}
+.faq-questions hr{
+    padding: 0px;
+    border-bottom: solid 1px #999;
+}
+.faq-questions, .faq-new-question{
+    border-bottom: 1px solid #EEEEEE;
+}
+.searchRoommate{
+    padding: 0px 4px;
+}
